@@ -1,0 +1,204 @@
+.leftCol{
+	border: 2.5px #ffe0b3 solid;
+	border-radius:10px;
+	color: #000!important;
+	background-color: #FFFFFF!important;
+	position:fixed;
+	clear:both;
+	left: 20px;
+	overflow-y:auto;
+	display:block;
+
+
+}
+html,body{
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	overflow-y:auto;
+	
+}
+
+h1,h2{
+	margin-top:10px;
+	margin-right: 5px;
+	margin-bottom:10px;
+	margin-left:0px;
+}
+h1{
+	font-size:30px;
+}
+h2{
+	font-size:20px;
+}
+p{
+	display: block;
+	box-sizing: inherit;
+	color: #757575;
+}
+TABLE{
+	color: #757575;
+	margin: -10px 0 0 12px;
+	border-spacing: 30px 0;
+}
+.TopRight{
+	border: 2.5px #ffe0b3 solid;
+	border-radius:10px;
+	background-color: #fff;
+	display:inline-block;
+	width:78%;
+	/*z-index:1;*/
+	position:fixed;
+	right:20px;
+}
+.linksAway{
+	text-decoration:none;
+	padding: 8px 16px;
+	letter-spacing:2px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	color:#000;
+	float:right;
+}
+a:hover{
+	background-color:#ffffcc;
+	text-style: none;
+}
+a:link{
+	text-decoration: none;
+}
+.bottom{
+	border: 2.5px #ffe0b3 solid;
+	border-radius:10px;
+	background-color:#fff;
+	display:block;
+	position:absolute;
+	bottom:0;
+	padding: 0.1em 16px;
+	text-align:center;
+	box-sizing: inherit;
+	width:40%;
+	margin:auto;
+	right:0;
+	left:0;
+	/*z-index:-1; */
+}
+.bodyParagraph{
+	background-color:#fff;
+	border-radius:10px;
+	display:block;
+	width:78%;
+	height:78%;
+	right:20px;
+	border: 2.5px #ffe0b3 solid;
+	margin-top:10px;
+	clear:both;
+	position:fixed;
+	float:right;
+	overflow-y:auto;
+
+}
+.wrapper{
+	width:100%;
+	height:100%;
+	overflow: auto;
+	clear:both;
+	display:inline-block;
+	position:relative;
+}
+
+@media (max-width: 1500px) {
+  .leftCol{
+    width:auto;
+  }
+  .leftCol{
+	text-align:left;
+  }
+  .bodyParagraph{
+	  width:auto;
+  }
+	h1{
+	  text-align:center;
+  }
+}
+@media (max-width: 2000px) {
+  .leftCol{
+    width:auto;
+  }
+  .TopRight{
+	width:75%;
+	height:auto;
+  }
+  .leftCol{
+	text-align:left;
+  }
+  .bodyParagraph{
+	  width:75%;
+  }
+	h1{
+	  text-align:center;
+  }
+}
+@media (max-width: 1024px) {
+  .leftCol{
+    width:auto;
+  }
+  .TopRight{
+	width:auto;
+	height:auto;
+  }
+  .leftCol{
+	text-align:left;
+  }
+  .bodyParagraph{
+	  width:60%;
+  }
+	h1{
+	  text-align:center;
+  }
+}
+@media (max-width: 800px) {
+  .leftCol{
+    width:auto;
+  }
+  .TopRight{
+	width:auto;
+	height:auto;
+  }
+  .leftCol{
+	text-align:left;
+  }
+  .bodyParagraph{
+	  width:43%;
+  }
+	h1{
+	  text-align:center;
+  }
+}
+p.indent{
+	padding-left:2.5em;
+	
+}
+@media (max-width: 550px) {
+  .leftCol{
+    width:43%;
+  }
+  .TopRight{
+	width:auto;
+	height:auto;
+  }
+  .leftCol{
+	text-align:left;
+  }
+  .bodyParagraph{
+	  width:43%;
+  }
+	h1{
+	  text-align:center;
+  }
+}
+
+p.indent{
+	padding-left:2.5em;
+	
+}
+

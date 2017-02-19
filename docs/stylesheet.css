@@ -9,7 +9,7 @@
 	float:left;
 	width:auto;
 	clear:both;
-	height:85%;
+	height:auto;
 	overflow-y:auto;
 	left:20px;
 	
@@ -52,6 +52,7 @@ TABLE{
 	width:75%;
 	position:static;
 	float:right;
+	left:10px;
 }
 .linksAway{
 	text-decoration:none;
@@ -96,6 +97,7 @@ a:link{
 	float:right;
 	overflow-y:auto;
 	right:0;
+	left:10px;
 
 }
 .wrapper{

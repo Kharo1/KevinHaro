@@ -1,7 +1,6 @@
 .leftCol{
-	border: 2.5px #ffe0b3 solid;
+	border: 2.5px #404040 solid;
 	border-radius:10px;
-	color: #000!important;
 	background-color: #FFFFFF!important;
 	position:static;
 	left: 20px;
@@ -13,9 +12,6 @@
 	overflow:auto;
 }
 body{
-	font-family: "Roboto", sans-serif;
-	font-size: 15px;
-	line-height: 1.5;
 	width:100%;
 	height:100%;
 }
@@ -35,7 +31,7 @@ h2{
 p{
 	display: block;
 	box-sizing: inherit;
-	color: #757575;
+	font-size:14px;
 }
 TABLE{
 	color: #757575;
@@ -43,7 +39,7 @@ TABLE{
 	border-spacing: 30px 0;
 }
 .TopRight{
-	border: 2.5px #ffe0b3 solid;
+	border: 2.5px #404040 solid;
 	border-radius:10px;
 	background-color: #fff;
 	display:inline-block;
@@ -61,14 +57,14 @@ TABLE{
 	float:right;
 }
 a:hover{
-	background-color:#ffffcc;
+	background-color:#d9d9d9;
 	text-style: none;
 }
 a:link{
 	text-decoration: none;
 }
 .bottom{
-	border: 2.5px #ffe0b3 solid;
+	border: 2.5px #404040 solid;
 	border-radius:10px;
 	background-color:#fff;
 	display:inline-block;
@@ -80,8 +76,6 @@ a:link{
 	left:0;
 	right:0;
 	margin:auto;
-	
-	
 }
 .bodyParagraph{
 	background-color:#fff;
@@ -89,7 +83,7 @@ a:link{
 	display:inline-block;
 	width:75%;
 	height:75%;
-	border: 2.5px #ffe0b3 solid;
+	border: 2.5px #404040 solid;
 	margin-top:10px;
 	position:static;
 	float:right;

@@ -7,11 +7,10 @@
 	left: 20px;
 	display:block;
 	float:left;
-	width:auto;
-	height:auto;
-	left:20px;
-
-	
+	width:20%;
+	height:85%;
+	left:20px;	
+	overflow:auto;
 }
 body{
 	font-family: "Roboto", sans-serif;
@@ -19,7 +18,6 @@ body{
 	line-height: 1.5;
 	width:100%;
 	height:100%;
-
 }
 
 h1,h2{
@@ -110,12 +108,13 @@ a:link{
 	clear:both;
 	overflow:auto;
 }
-.container{
-	
-	
-}
 p.indent{
 	padding-left:2.5em;
 }
-
+.mainImage{
+	width:auto;
+	height:auto;
+	max-width:MaxSize;
+	max-height:MaxSize;
+}
 

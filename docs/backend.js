@@ -162,12 +162,12 @@ function sampleCode(){
 	"</li>"+
 	"<li><i><b><a href=\"SampleCode/hmwk3_kharo1.c\">Matrix Walk</a></b></i>"+
 	"<ul>"+
-	"<li>Description:Program generates a 10x10 matrix, and walks through the array in a random direction. </li>"+
+	"<li>Description: Program generates a 10x10 matrix, and walks through the array in a random direction. </li>"+
 	"</ul>"+
 	"</li>"+
 	"<li><i><b><a href=\"SampleCode/hmwk4_kharo1.c\">Input/ Read File</a></b></i>"+
 	"<ul>"+
-	"<li>Description:The purpose of this program is to read and write a binary file. Using the command line. An input file must be specified and an outputfile must be specified. </li>"+
+	"<li>Description: The purpose of this program is to read and write a binary file. Using the command line. An input file must be specified and an outputfile must be specified. </li>"+
 	"</ul>"+
 	"</li>"+
 	"<li><i><b><a href=\"SampleCode/hw1.c\">Process Creating</a></b></i>"+
@@ -219,7 +219,7 @@ function sampleCode(){
 	"<h2 style=\"color:red;\">&nbsp;  &nbsp;  &nbsp; HTML/CSS Website</h2> "+
 	"<hr width=\"90%\"> "+
 	"<p class = \"indent\">  &emsp; &emsp;This webpage was complete designd by Kevin Haro using Atom text editor and "+
-    "GitHub to manage the project. The purpose of this site is summarize my accomplishments in University as well as "+
+    " GitHub to manage the project. The purpose of this site is summarize my accomplishments in University as well as "+
     "work done as personal projects. This site was created with simplicity and cleanliness in mind. "+
 	"</p> ";
 }
@@ -269,6 +269,7 @@ function workHistory(){
 	"<li>Responsible for answering customers&apos; questions - over the phone or via chat - about Apple products, services, and accessories, including both software and hardware.</li> "+
 	"<li>Training lasted four to six weeks, and the content was delivered through a virtual, online program by a live instructor. The topics covered included Apple product lessons, advanced troubleshooting, and job-specific tools and processes. Most importantly Apple’s unique approach to customer support.</li> "+
 	"<li>Need a passion for working with technology and helping people. An enjoyment of troubleshooting and working independently without in-person supervision. And having good multitasking skills to manage multiple systems and applications simultaneously.</li> "+
+	"<li>A well rounded knowbledge on how iOS devices work (Hardware and Software components)</li> "+
 	"<li>A well rounded knowbledge on how iOS devices work (Hardware and Software components)</li> "+
 	"</ul>"+
 	"</li>"+

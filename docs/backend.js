@@ -2,12 +2,12 @@ function home(){
 	document.getElementById("bodyParagraph").innerHTML = "<h2 style=\"color:red;\">&nbsp;  &nbsp;  &nbsp; Personal Statement </h2>"+
 		"<hr width=\"90%\">"+
 		"<p class =\"indent\">"+
-		"&emsp; &emsp;\"My pursuit in a Computer Science Bachelor&apos;s Degree, displays my affection for technology and programming."+
-		"I feel that the Computer Science program at Georgia State University has prepared me to tackle any project or opportunity. I have"+
-		"taken numerous computer science and mathematical courses (involving languages from Java, Javascript, PHP, CSS,"+
-		"HTML5, to C) Please review my Education page. Knowing this I can confidently say that my development as a programmer has increased significantly"+
-		"since my first love affair with coding, and will continue to progress on a daily basis. I'm looking for a Internship that does not only add onto my skills as a programmer"+
-		"but also where I can show and execute my knowledge and love for code.\" - Kevin Haro"+
+		"&emsp; &emsp;\"My pursuit in a Computer Science Bachelor&apos;s Degree, displays my affection for technology and programming. "+
+		"I feel that the Computer Science program at Georgia State University has prepared me to tackle any project or opportunity. I have "+
+		"taken numerous computer science and mathematical courses (involving languages from Java, Javascript, PHP, CSS, "+
+		"HTML5, to C) Please review my Education page. Knowing this I can confidently say that my development as a programmer has increased significantly "+
+		"since my first love affair with coding, and will continue to progress on a daily basis. I'm looking for a Internship that does not only add onto my skills as a programmer "+
+		"but also where I can show and execute my knowledge and love for code.\" - Kevin Haro "+
 		"</p>"+
 		"<h2 style=\"color:red;\">&nbsp;  &nbsp;  &nbsp; Education Overview</h2>"+
 		"<hr width=\"90%\">"+
@@ -32,14 +32,14 @@ function home(){
 		"<ul>"+
 		"<li><i><b>Computer Science Tutor 2/17- present</b></i>"+
 		"<ul>"+
-		"<li>Georgia State University Computer Science Deparment</li>"+
-		"<li>Provide tutoring services for undergraduates taking:"+
-			"CSc 1301 (Principles of Computer Sci I)"+
-			"CSc 1302 (Principles of Computer Sci II) ,"+
-			"CSc 2510 (Theoretical Foundation of COMP SCI),"+
-			"CSc 3320 (Computer ORG &amp; Programming),"+
-			"CSc 2720 (Date Structures),"+
-			"CSc 3210 (System Level Programming),"+
+		"<li>Georgia State University Computer Science Deparment</li> "+
+		"<li>Provide tutoring services for undergraduates taking: "+
+			"CSc 1301 (Principles of Computer Sci I) "+
+			"CSc 1302 (Principles of Computer Sci II) , "+
+			"CSc 2510 (Theoretical Foundation of COMP SCI), "+
+			"CSc 3320 (Computer ORG &amp; Programming), "+
+			"CSc 2720 (Date Structures), "+
+			"CSc 3210 (System Level Programming), "+
       ".</li>"+
 		"</ul>"+
 		"</li>"+
@@ -51,7 +51,7 @@ function home(){
 		"</li>"+
 		"<li><i><b>Student Assistant 1/15- 6/16</b></i>"+
 		"<ul>"+
-		"<li>Georgia State University Business Services</li>"+
+		"<li>Georgia State University Business Services</li> "+
 		"<li>Greet, assist, and direct guests, workers, visitors and the general public.</li>"+
 		"</ul>"+
 		"</li>"+
@@ -216,12 +216,12 @@ function sampleCode(){
 	"</li>"+
 	"</ul>"+
 	"</p>"+
-	"<h2 style=\"color:red;\">&nbsp;  &nbsp;  &nbsp; HTML/CSS Website</h2>"+
-	"<hr width=\"90%\">"+
-	"<p class = \"indent\">  &emsp; &emsp;This webpage was complete designd by Kevin Haro using Atom text editor and"+
-    "GitHub to manage the project. The purpose of this site is summarize my accomplishments in University as well as"+
-    "work done as personal projects. This site was created with simplicity and cleanliness in mind."+
-	"</p>";
+	"<h2 style=\"color:red;\">&nbsp;  &nbsp;  &nbsp; HTML/CSS Website</h2> "+
+	"<hr width=\"90%\"> "+
+	"<p class = \"indent\">  &emsp; &emsp;This webpage was complete designd by Kevin Haro using Atom text editor and "+
+    "GitHub to manage the project. The purpose of this site is summarize my accomplishments in University as well as "+
+    "work done as personal projects. This site was created with simplicity and cleanliness in mind. "+
+	"</p> ";
 }
 function workHistory(){
 	document.getElementById("bodyParagraph").innerHTML="<h2 style=\"color:red;\">&nbsp;  &nbsp;  &nbsp; Work Experience </h2>"+
@@ -246,18 +246,18 @@ function workHistory(){
 	"<li> Georgia State University Housing"+
 	"<ul>"+
 	"<li>Assessing and meeting the needs of approximately 50-60 residents through daily "+
-	"interactions. There are four major areas of responsibilities administrative, role model,"+
-	"community building and team member. Required planning and implementing the Residential"+
-	"Curriculum, conducting resident one-on-ones, performing administrative duties, serving"+ 
-	"on duty, working at the Community Desk, assisting with resident and building security"+ 
-	"procedures, attending training and in-services, following emergency protocols,"+ 
-	"enforcing university policies and serveing as a resource and role model to residents.</li>"+
-	"<li>Serve as a resource for students by becoming familiar with Georgia State departments, programs and services.</li>"+
-	"<li>Address roommate conflicts and arrange roommate living agreements when necessary.</li>"+
-	"<li>Provide emergency support and ensure that the police and the on-call professional are notified when needed.</li>"+
-	"<li>Complete a thorough inspection of each room before a resident checks in or out and document the condition of each.	</li>"+
-	"<li>Disseminate information to students via postings, floor meetings, and individual interaction.	</li>"+
-	"<li>Assist with regular University Housing events such as move-in, Panther Welcome , move-out, and student staff selection. </li>"+
+	"interactions. There are four major areas of responsibilities administrative, role model, "+
+	"community building and team member. Required planning and implementing the Residential "+
+	"Curriculum, conducting resident one-on-ones, performing administrative duties, serving "+ 
+	"on duty, working at the Community Desk, assisting with resident and building security "+ 
+	"procedures, attending training and in-services, following emergency protocols, "+ 
+	"enforcing university policies and serveing as a resource and role model to residents.</li> "+
+	"<li>Serve as a resource for students by becoming familiar with Georgia State departments, programs and services.</li> "+
+	"<li>Address roommate conflicts and arrange roommate living agreements when necessary.</li> "+
+	"<li>Provide emergency support and ensure that the police and the on-call professional are notified when needed.</li> "+
+	"<li>Complete a thorough inspection of each room before a resident checks in or out and document the condition of each.	</li> "+
+	"<li>Disseminate information to students via postings, floor meetings, and individual interaction.	</li> "+
+	"<li>Assist with regular University Housing events such as move-in, Panther Welcome , move-out, and student staff selection. </li> "+
 	"</ul>"+
 	"</li>"+
 	"</ul>"+
@@ -266,10 +266,10 @@ function workHistory(){
 	"<ul>"+
 	"<li> Apple Inc."+
 	"<ul>"+
-	"<li>Responsible for answering customers&apos; questions - over the phone or via chat - about Apple products, services, and accessories, including both software and hardware.</li>"+
-	"<li>Training lasted four to six weeks, and the content was delivered through a virtual, online program by a live instructor. The topics covered included Apple product lessons, advanced troubleshooting, and job-specific tools and processes. Most importantly Apple’s unique approach to customer support.</li>"+
-	"<li>Need a passion for working with technology and helping people. An enjoyment of troubleshooting and working independently without in-person supervision. And having good multitasking skills to manage multiple systems and applications simultaneously.</li>"+
-	"<li>A well rounded knowbledge on how iOS devices work (Hardware and Software components)</li>"+
+	"<li>Responsible for answering customers&apos; questions - over the phone or via chat - about Apple products, services, and accessories, including both software and hardware.</li> "+
+	"<li>Training lasted four to six weeks, and the content was delivered through a virtual, online program by a live instructor. The topics covered included Apple product lessons, advanced troubleshooting, and job-specific tools and processes. Most importantly Apple’s unique approach to customer support.</li> "+
+	"<li>Need a passion for working with technology and helping people. An enjoyment of troubleshooting and working independently without in-person supervision. And having good multitasking skills to manage multiple systems and applications simultaneously.</li> "+
+	"<li>A well rounded knowbledge on how iOS devices work (Hardware and Software components)</li> "+
 	"</ul>"+
 	"</li>"+
 	"</ul>"+
@@ -278,14 +278,14 @@ function workHistory(){
 	"<ul>"+
 	"<li> Georgia State University Business Services"+
 	"<ul>"+
-	"<li>Directed visitors by maintaining employee and department directories.</li>"+
-	"<li>Maintained telecommunication system by following manufacturer's instructions for house phone and console operation.</li>"+
-	"<li>Proficient in Excel for monitoring status of State Contracts.</li>"+
-	"<li>Maintained continuity among work teams by documenting and communicating actions, irregularities, and continuing needs.</li>"+
-	"<li>Contributes to team effort by accomplishing related results as needed.</li>"+
-	"<li>Ability to organize, multitask, prioritize and work under pressure.</li>"+
-	"<li>Maintained filing system by filling all W9 Forums/ State Contracts/ Licenses.</li>"+
-	"<li>Answering inquiries from vendors/ P-Card holders. </li>"+
+	"<li>Directed visitors by maintaining employee and department directories.</li> "+
+	"<li>Maintained telecommunication system by following manufacturer's instructions for house phone and console operation.</li> "+
+	"<li>Proficient in Excel for monitoring status of State Contracts.</li> "+
+	"<li>Maintained continuity among work teams by documenting and communicating actions, irregularities, and continuing needs.</li> "+
+	"<li>Contributes to team effort by accomplishing related results as needed.</li> "+
+	"<li>Ability to organize, multitask, prioritize and work under pressure.</li> "+
+	"<li>Maintained filing system by filling all W9 Forums/ State Contracts/ Licenses.</li> "+
+	"<li>Answering inquiries from vendors/ P-Card holders. </li> "+
 	"</ul>"+
 	"</li>"+
 	"</ul>"+

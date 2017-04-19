@@ -14,6 +14,7 @@
 body{
 	width:100%;
 	height:100%;
+	background-image: url(Photos/wallpaper2.jpg);
 }
 
 h1,h2{
@@ -48,17 +49,13 @@ TABLE{
 	float:right;
 	left:10px;
 }
-.linksAway{
+.TopRight{
 	text-decoration:none;
 	padding: 8px 16px;
-	letter-spacing:2px;
+	letter-spacing:4px;
 	font-family: "Segoe UI", Arial, sans-serif;
 	color:#000;
-	float:right;
-}
-a:hover{
-	background-color:#d9d9d9;
-	text-style: none;
+	text-align:right;
 }
 a:link{
 	text-decoration: none;
@@ -77,7 +74,7 @@ a:link{
 	right:0;
 	margin:auto;
 }
-.bodyParagraph{
+#bodyParagraph{
 	background-color:#fff;
 	border-radius:10px;
 	display:inline-block;
@@ -111,4 +108,21 @@ p.indent{
 	max-width:MaxSize;
 	max-height:MaxSize;
 }
-
+#clickable:hover{
+	background-color:#d9d9d9;
+	text-style: none;
+	cursor:pointer;
+}
+.icons{
+	width:1.8em;
+	text-align:center;
+	display:inline-block;
+	vertical-align:middle;
+}
+.icons2{
+	width:1.6em;
+	text-align:center;
+	display:inline-block;
+	vertical-align:middle;
+	padding-left:1px;
+}

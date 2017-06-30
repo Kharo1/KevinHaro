@@ -1,138 +1,346 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title> Kevin Haro </title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-<script src="backend.js"> </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Stylish Portfolio - Start Bootstrap Theme</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body onload="home()">
+<body>
 
+  <!-- Navigation -->
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+      <li class="sidebar-brand" style="color:#f6f6f6">
+        Hello
+      </li>
+      <li>
+        <a href="index.html" onclick=$( "#menu-close").click();>Home</a>
+      </li>
+      <li>
+        <a href="overview.html" onclick=$( "#menu-close").click();>Overview</a>
+      </li>
+      <li>
+        <a href="work.html" onclick=$( "#menu-close").click();>Work History</a>
+      </li>
+      <li>
+        <a href="education.html" onclick=$( "#menu-close").click();>Education</a>
+      </li>
+      <li>
+        <a href="code.html" onclick=$( "#menu-close").click();>Sample Code</a>
+      </li>
+      <li>
+        <a href="summer2017.html" onclick=$( "#menu-close").click();>Summer 2017 Internship</a>
+      </li>
+      <hr style="width:80%; border: 1px solid #737373;">
+      <li class="sidebar-brand" style="color:#f6f6f6">
+        Quick Links
+      </li>
+      <li>
+        <a href="Extra/kevinharo.pdf" onclick=$( "#menu-close").click();>Resume</a>
+      </li>
+      <li>
+        <a href="http://meritpages.com/KevinHaro" onclick=$( "#menu-close").click();>Georgia State Merit Page</a>
+      </li>
+    </ul>
+  </nav>
 
-<div class="wrapper" >
-<div class="leftCol">
-    <img class="mainImage" src="Photos/phoo.png" alt="Main Photo">
+  <!-- Header -->
+  <header id="top" class="header">
+    <div class="text-vertical-center">
+      <h1 style="color:#f6f6f6">Kevin Haro</h1>
+      <h3 style="color:#f6f6f6">Programmer &amp; Developer.</h3>
+      <br>
+      <a href="#about" class="btn btn-dark btn-lg">more</a>
+    </div>
+  </header>
 
-<h1 style="text-align:center;"> &nbsp; Kevin I. Haro </h1>
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>"Innovation distinguishes between a leader and a follower."</h2>
+          <p class="lead">- Steve Jobs</p>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
 
-<p>
-<img src="Photos/suitcase.png" alt="Suitcase" class="icons"></i>
-&nbsp;
-<span style="vertical-align:middle;">Programmer / Developer</span>
-</p>
-<p>
-<img src="Photos/house.png" alt="House" class="icons" ></i>
-&nbsp;
-<span style="vertical-align:middle;">Atlanta Region</span>
-</p>
-<p>
-<img src="Photos/email.png" alt="Email" class="icons"></i>
-&nbsp;
-<span style="vertical-align:middle;">Kharo1@student.gsu.edu</span>
-</p>
-<p>
-<img src="Photos/phone.png" alt="Phone" class="icons2" ></i>
-&nbsp;
-<span style="vertical-align:middle;">(678) 702-3661</span>
-</p>
-<p style="margin:0">
-<img src="Photos/School.png" alt="School" class="icons"></i>
-&nbsp;
-<span style="vertical-align:middle;"><a href="http://www.gsu.edu/">Georgia State University</a>
-									<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; College of Arts and Science</br>
-									&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; BS in Computer Science</span>
-</p>
+  <!-- Services -->
+  <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+  <section id="services" class="services bg-primary" style="background-color:#737373">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-10 col-lg-offset-1">
+          <h2>coding experience in..</h2>
+          <hr class="small">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                                  <img src = "img/java.png" width="50px" />
+                            </span>
+                <h4>
+                                    <strong>Java</strong>
+                                </h4>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                                <img src = "img/javascript.png" width="50px" />
+                            </span>
+                <h4>
+                                    <strong>JavaScript</strong>
+                                </h4>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                                <img src = "img/mysql.png" width="50px" />
+                            </span>
+                <h4>
+                                    <strong>MySQL</strong>
+                                </h4>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                              <img src = "img/php.png" width="50px" />
+                            </span>
+                <h4>
+                                    <strong>PHP</strong>
+                                </h4>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                              <img src = "img/css3.png" width="50px" />
+                            </span>
+                <h4>
+                                    <strong>CSS3</strong>
+                                </h4>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                                <img src = "img/html5.png" width="50px" />
+                            </span>
+                <h4>
+                                    <strong>HTML5</strong>
+                                </h4>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                                <img src = "img/jquery.png" width="50px" />
+                            </span>
+                <h4>
+                                    <strong>jQuery</strong>
+                                </h4>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                                <img src = "img/c.png" width="50px" />
+                            </span>
+                <h4>
+                                    <strong>C</strong>
+                                </h4>
+              </div>
+            </div>
+          </div>
+          <!-- /.row (nested) -->
+        </div>
+        <!-- /.col-lg-10 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
 
-<hr width="75%">
-<h2>
-<img src="Photos/skills.jpg" alt="Skills" class="icons2"></i>
-&nbsp;
-<span style="vertical-align:middle;">Skills</span>
-</h2>
-<p>
-  <TABLE>
-  <TR>
-  	<TD><li>Java</li></TD>
-  	<TD><li>C</li></TD>
-  </TR>
-  <TR>
-  	<TD><li>mySQL</li></TD>
-  	<TD><li>HTML</li></TD>
-  </TR>
-  <TR>
-  	<TD><li>PHP</li></TD>
-  	<TD><li>JavaScript</li></TD>
-  </TR>
-  <TR>
-  	<TD><li>CSS</li></TD>
-  	<TD><li>jQuery</li></TD>
-  </TR>
-  </TABLE>
-</p>
+  <!-- Callout -->
+  <aside class="overview">
+    <div class="text-vertical-center">
+      <h1>in the ATL region</h1>
+    </div>
+  </aside>
 
-<hr width="75%">
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h2>more about me </h2>
+          <hr class="small">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="education.html">
+                                    <img class="img-portfolio img-responsive" src="img/gsu.jpg" title="Education">
+                                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="work.html">
+                                    <img class="img-portfolio img-responsive" src="img/work.jpg" title="Work History">
+                                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="summer2017.html">
+                                    <img class="img-portfolio img-responsive" src="img/coding.jpg" title="Internship: Summer 2017">
+                                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="code.html">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg" title="Code Examples">
+                                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /.row (nested) -->
+        </div>
+        <!-- /.col-lg-10 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
 
-<h2>
-<img src="Photos/world.png" alt="World" style="width:1.8em;text-align:center;display:inline-block;vertical-align:middle;"></i>
-&nbsp;
-<span style="vertical-align:middle;">Quick Links</span>
-</h2>
+  <hr style="width:80%; border: 1px solid #737373;">
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h4><strong>KevinHaro.com</strong>
+                    </h4>
+          <p>Atlanta Region
+            <ul class="list-unstyled">
+              <li><i class="fa fa-phone fa-fw"></i> (678) 702-3661</li>
+              <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:kharo1@student.gsu.edu">Kharo1@student.gsu.edu</a>
+              </li>
+            </ul>
+            <br>
+            <ul class="list-inline">
+              <li>
+                <a href="https://www.facebook.com/kevin.haro.98"><i class="fa fa-facebook fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/kevinharo"><i class="fa fa-linkedin-square fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-github fa-3x"></i></a>
+              </li>
+            </ul>
+            <hr class="small">
+            <p class="text-muted">&copy; 2017 Kevin Haro. All rights reserved. Haro Corporation Web Design. </p>
+        </div>
+      </div>
+    </div>
+    <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+  </footer>
 
-<ul>
-<li><a href="Extra/KevinHaro.pdf">Resume</a></li>
-<li><a href="http://meritpages.com/KevinHaro">GSU Merit Page</a></li>
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
 
-</ul>
-</div>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
 
-<!-- END -->
-
-<!-- Top of Page -->
-<div class="TopRight">
-<ul style="list-style:none;">
-<li class="rightSide">
-<span id="clickable" onclick="sampleCode()">Sample Code</span> |
-<span id="clickable" onclick="education()">Education</span> |
-<span id="clickable" onclick="workHistory()">Work History</span> |
-<span id="clickable" onclick="home()">Home</span>
-
-</li>
-</ul>
-</div>
-
-</br>
-</br>
-</br>
-
-<div id="bodyParagraph">
-
-
-
-</div>
-
-
-
-</div>
-<!-- END -->
-
-
-
-<div class="bottom">
-
-<p style="margin:0; font-size:10px;">Find me on social media. </p>
-<a href="https://www.facebook.com/kevin.haro.98">
-<img src="Photos/facebook.png" alt="FaceBook" style="width:1.2em;text-align:center;display:inline-block;vertical-align:middle;"></i>
-</a>
-<img src="Photos/snapchat.png" alt="SnapChat" style="width:1.2em;text-align:center;display:inline-block;vertical-align:middle;"></i>
-<a href="https://www.linkedin.com/in/kevinharo">
-<img src="Photos/linkedin.png" alt="Linkedin" style="width:1.2em;text-align:center;display:inline-block;vertical-align:middle;"></i>
-</a>
-<p style="margin:0; font-size:10px;">&copy; 2017 Kevin Haro. All rights reserved. Haro Corporation Web Design. </p>
-
-</div>
-
-
+  <!-- Custom Theme JavaScript -->
+  <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+      e.preventDefault();
+      $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+      $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+      if ($(this).scrollTop() > 250) {
+        if (!fixed) {
+          fixed = true;
+          // $('#to-top').css({position:'fixed', display:'block'});
+          $('#to-top').show("slow", function() {
+            $('#to-top').css({
+              position: 'fixed',
+              display: 'block'
+            });
+          });
+        }
+      } else {
+        if (fixed) {
+          fixed = false;
+          $('#to-top').hide("slow", function() {
+            $('#to-top').css({
+              display: 'none'
+            });
+          });
+        }
+      }
+    });
+  </script>
 
 </body>
+
 </html>
